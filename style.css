@@ -7,14 +7,29 @@
     height:60px;
     background-color: hsl(180, 6%, 6%);
     color: white;
+    display: flex;
 }
+/** BOX 1 **/
 .nav-logo{
     height: 50px;
     width: 100px;
 }
 .logo{
-    background-image: url("D:\FRONT-END WEBDEVELOPMENT\AMAZON CLONE\amazon_logo.png");
+    background-image: url("amazon_logo.png");
     background-size: cover;
     height: 50px;
     width: 100%;
+}
+.border{
+    border:solid 1.5px transparent;
+}
+.border:hover{
+    border: 2px solid white;
+}
+/** BOX 2 **/
+.T1{
+    color: #CCCCCC;
+}
+.T2{
+    color:white;
 }
