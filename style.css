@@ -48,12 +48,13 @@
     margin-left: 15px;
     background-color: antiquewhite;
     height: 38px;
-    width: 600px;
+    width: 880px;
     border-radius: 7px;
 }
 .search-icon{
-    background-color: darkgoldenrod;
-    width:50px;
+    background-color: rgb(81, 207, 238);
+    width:45px;
+    font-size: 1.5rem;
     display: flex;
     border-bottom-right-radius: 7px;
     border-top-right-radius: 7px;
@@ -68,8 +69,38 @@
     border-top-left-radius: 7px;
 }
 .search-bar{
-    width: 500px;
+    width: 785px;
+}
+/** box 4 **/
+.nav-signin{
+    margin-left: 30px;
+}
+.sign-in{
+    font-size: small;
+}
+.accounts-lists{
+    font-weight: 800;
 }
 
+/** box 5 **/
+.return-orders{
+    margin-left: 30px;
+}
+.returns{
+    font-size: 0.9rem;
+}
+.orders{
+    font-size: 1rem;
+    font-weight: 800;
+}
 
-
+/**box 6 **/
+.cart{
+    display: flex;
+    margin-left: 30px;
+    font-size: 2rem;
+}
+.cartt{
+    color: rgb(226, 166, 15);
+    margin-left: 10px;
+}
