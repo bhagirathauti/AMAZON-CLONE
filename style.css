@@ -8,6 +8,7 @@
     background-color: hsl(180, 6%, 6%);
     color: white;
     display: flex;
+    align-items: center;
 }
 /** BOX 1 **/
 .nav-logo{
@@ -29,7 +30,46 @@
 /** BOX 2 **/
 .T1{
     color: #CCCCCC;
+    font-size: 0.85rem;
+    margin-left: 15px;
 }
 .T2{
     color:white;
+    font-size: 1rem;
+    margin-left: 3px;
 }
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+/**box 3**/
+.nav-search{
+    display: flex;
+    margin-left: 15px;
+    background-color: antiquewhite;
+    height: 38px;
+    width: 600px;
+    border-radius: 7px;
+}
+.search-icon{
+    background-color: darkgoldenrod;
+    width:50px;
+    display: flex;
+    border-bottom-right-radius: 7px;
+    border-top-right-radius: 7px;
+    justify-content: center;
+    align-items: center;
+}
+.search-select{
+    background-color: aliceblue;
+    text-align: center;
+    width: 50px;
+    border-bottom-left-radius: 7px;
+    border-top-left-radius: 7px;
+}
+.search-bar{
+    width: 500px;
+}
+
+
+
