@@ -150,3 +150,108 @@
 .STC{
     margin-left: 900px;
 }
+/**HERO**/
+.hero-section{
+    display: flex;
+    background-image: url("hero_image.jpg");
+    background-size: cover;
+    height: 330px; 
+    width: 1520px;
+}
+.hero-message{
+    display: flex;
+    background-color: white;
+    color: black;
+    height: 40px;
+    width: 1600px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 260px;
+    font-size: 14px;
+}
+.hero-message a{
+    color: rgb(36, 61, 225);
+}
+/**SHOP**/
+.box{
+    height: 350px;
+    background-color: aliceblue;
+    border: 2px solid transparent;
+    width: 23%;
+    padding: 20px 0px 15px;
+    margin-top: 20px;
+}
+.shop{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #d6ede9;
+}
+.box1-img{
+    height:300px;
+}
+.box1-content{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.box2-img{
+    height: 300px;
+    width:260px;
+}
+.box2-content{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.box3-img{
+    height:300px;
+}
+.box3-content{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.box4-img{
+    height:300px;
+}
+.box4-content{
+     margin-left: 20px;
+     margin-right: 20px;
+}
+.box5-img{
+    height:300px;
+}
+.box5-content{
+     margin-left: 20px;
+     margin-right: 20px;
+}
+.box5-img{
+    height:300px;
+}
+.box5-content{
+     margin-left: 20px;
+     margin-right: 20px;
+}
+.box6-img{
+    height:300px;
+    background-size: cover;
+}
+.box6-content{
+     margin-left: 20px;
+     margin-right: 20px;
+}
+.box7-img{
+    height:300px;
+}
+.box7-content{
+     margin-left: 20px;
+     margin-right: 20px;
+}
+.box8-img{
+    height:300px;
+}
+.box8-content{
+     margin-left: 20px;
+     margin-right: 20px;
+}
+.see-more{
+    margin-top: 10px;
+}
