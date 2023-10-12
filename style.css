@@ -225,6 +225,8 @@
 }
 .box5-img{
     height:300px;
+    background-size:contain;
+    background-position: center;
 }
 .box5-content{
      margin-left: 20px;
@@ -240,6 +242,7 @@
 }
 .box7-img{
     height:300px;
+    background-size: cover;
 }
 .box7-content{
      margin-left: 20px;
